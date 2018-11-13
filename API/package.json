@@ -1,0 +1,23 @@
+{
+  "name": "api_sigudang",
+  "version": "1.0.0",
+  "description": "sebuah api untuk aplikasi SiGudang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "js",
+    "sigudang",
+    "javascript"
+  ],
+  "author": "Kelompok 1",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
