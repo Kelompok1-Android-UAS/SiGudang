@@ -3,8 +3,13 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
+<<<<<<< HEAD
         applicationId "muhammadyusup.com.sigudang"
         minSdkVersion 16
+=======
+        applicationId "kerad.sigudang"
+        minSdkVersion 23
+>>>>>>> 49c7fb2917ce81783af1380f2e6aa38b6e4bd5b8
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -25,4 +30,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+<<<<<<< HEAD
+=======
+    compile 'com.android.support:design:24.2.0'
+>>>>>>> 49c7fb2917ce81783af1380f2e6aa38b6e4bd5b8
 }
